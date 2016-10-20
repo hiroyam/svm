@@ -1,5 +1,5 @@
-# boilerplate
+# svm
 
-数値計算用テンプレート
+Support vector machine / SMO
 
-[![Build Status](https://travis-ci.org/hiroyam/boilerplate.svg?branch=master)](https://travis-ci.org/hiroyam/boilerplate)
+[![Build Status](https://travis-ci.org/hiroyam/svm.svg?branch=master)](https://travis-ci.org/hiroyam/svm)
