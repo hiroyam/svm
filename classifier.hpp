@@ -177,5 +177,5 @@ private:
         return std::exp(-l2 / (delta * delta));
     }
 };
-}
+} // namespace binary
 } // namespace classifier

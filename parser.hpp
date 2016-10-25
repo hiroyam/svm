@@ -24,5 +24,5 @@ void read_iris(std::string fn, std::vector<vec_t> &data, std::vector<int> &label
     }
     ifs.close();
 }
-}
+} // namespace csv
 } // namespace parser
