@@ -2,8 +2,7 @@ namespace parser {
 namespace csv {
 void read_iris(std::string fn, std::vector<vec_t> &data, std::vector<int> &label) {
     std::string   s;
-    std::ifstream ifs;
-    ifs.open(fn);
+    std::ifstream ifs(fn);
     while (std::getline(ifs, s)) {
         vec_t              v;
         std::string        t;
