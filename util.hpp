@@ -9,7 +9,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
-
+#include <cfloat>
 
 #include <immintrin.h>
 #include <omp.h>

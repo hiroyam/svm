@@ -5,6 +5,10 @@ main:
 	# ./a
 	# sh plot.sh
 
+plot:
+	./a
+	sh plot.sh
+
 #   for assembler
 # 	g++ main.cpp \
 		-S -g -masm=intel \
