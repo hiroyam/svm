@@ -61,7 +61,7 @@ public:
         for (int i = 0; i < N; i++) {
             tmp += a[i] * label[i] * kernel(x, data[i]);
         }
-        return tmp + b;
+        return tmp - b;
     }
 
 private:
