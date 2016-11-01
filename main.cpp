@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
             max_y = std::max(v[1], max_y);
         }
 
-		// 0.05刻みでテストデータを作る
+        // 0.05刻みでテストデータを作る
         float margin = 0.4f;
         for (float x = min_x - margin; x <= max_x + margin; x += 0.05f) {
             for (float y = min_y - margin; y <= max_y + margin; y += 0.05f) {
@@ -41,11 +41,10 @@ int main(int argc, char *argv[]) {
         }
 
         // プロット用のデータを出力する
-		std::fstream ofs("output", std::ios::out);
+        std::fstream ofs("output", std::ios::out);
         for (auto v : test_data) {
             ofs << format_str("%.2f %.2f %d", v[0], v[1], cls.predict(v) > 0 ? 1 : -1) << std::endl;
         }
-
     } catch (const std::exception &e) {
         std::cerr << colorant('y', format_str("error: %s", e.what())) << std::endl;
     }
