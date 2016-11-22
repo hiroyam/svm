@@ -33,9 +33,7 @@ int main(int argc, char *argv[]) {
         float margin = 0.4f;
         for (float x = min_x - margin; x <= max_x + margin; x += 0.05f) {
             for (float y = min_y - margin; y <= max_y + margin; y += 0.05f) {
-                vec_t v(2);
-                v[0] = x;
-                v[1] = y;
+                vec_t v{x, y};
                 test_data.push_back(v);
             }
         }
