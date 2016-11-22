@@ -13,4 +13,4 @@ C++によるフルスクラッチです。
 
 ##### 動作サンプル
 
-![](https://github.com/hiroyam/svm/blob/master/sample.png)
+![](sample.png)
